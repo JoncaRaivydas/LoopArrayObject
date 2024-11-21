@@ -11,5 +11,6 @@ const filmas ={
     ],
     "metai":2022
 }
+let sieMetai=new Date().getFullYear();
 let filmoMetai=filmas.metai;
-console.log(`Filmo '${filmas.pavadinimas}' metai yra: ${filmoMetai}`);
+console.log(`Filmas '${filmas.pavadinimas}' yra ${sieMetai-filmoMetai}-u metu senumo`);
